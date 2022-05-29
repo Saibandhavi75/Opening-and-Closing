@@ -37,7 +37,7 @@ import matplotlib.pyplot as plt
 # Create the Text using cv2.putText
 img1=np.zeros((100,500),dtype='uint8')
 font=cv2.FONT_HERSHEY_COMPLEX
-im=cv2.putText(img1,' Sai Bandhavi.A',(5,70),font,2,(255),5,cv2.LINE_AA)
+im=cv2.putText(img1,' Sai Bandhavi',(5,70),font,2,(255),5,cv2.LINE_AA)
 plt.imshow(im)
 
 # Create the structuring element
@@ -55,12 +55,16 @@ plt.imshow(image1)
 ## Output:
 
 ### Display the input Image
-![output](?raw=true)
+
+![output](https://github.com/Saibandhavi75/Opening-and-Closing/blob/main/EX11-1.png?raw=true)
 
 ### Display the result of Opening
-![output](?raw=true)
+
+![output](https://github.com/Saibandhavi75/Opening-and-Closing/blob/main/EX11-2.png?raw=true)
+
 ### Display the result of Closing
-![output](?raw=true)
+
+![output](https://github.com/Saibandhavi75/Opening-and-Closing/blob/main/EX11-3.png?raw=true)
 
 ## Result
 Thus the Opening and Closing operation is used in the image using python and OpenCV.
